@@ -149,7 +149,7 @@ html{
     margin-top: 4vw;
     /* tỉ lệ theo chiều ngang của chính nó */
     padding-top: 50%;
-    background: url('/assets/img/slider/hua-background.png') top center / cover no-repeat;
+    background: url('/assets/img/slider/hua-background.webp') top center / cover no-repeat;
 }
 
 #slider .text-content{
@@ -185,7 +185,7 @@ html{
     margin-right: auto;
     /* margin-bottom: 20px; */
     padding-top: 50%;
-    background: url('/assets/img/content/background/bridge.png')top center /cover no-repeat;
+    background: url('/assets/img/content/background/bridge.webp')top center /cover no-repeat;
     overflow: hidden;
 }
 
@@ -288,7 +288,7 @@ html{
     height: 4.5dvw;
     line-height: 3.2dvw;
     padding-left: 2dvw;
-    background: url('/assets/img/content/background/data_background.png') 0 0/ 31dvw no-repeat;
+    background: url('/assets/img/content/background/data_background.webp') 0 0/ 31dvw no-repeat;
     margin: 0.8dvw -1.3vw;
 }
 
@@ -349,7 +349,7 @@ html{
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background: url('/assets/img/content/background/list-background2.png') left bottom/100% 100% no-repeat;
+    background: url('/assets/img/content/background/list-background2.webp') left bottom/100% 100% no-repeat;
 }
 
 .valkyries-detail-action {
@@ -369,7 +369,7 @@ html{
     z-index: 5;
     width: 100%;
     height: 10vw;
-    background: url('/assets/img/content/background/list-background.png') left bottom/cover no-repeat;
+    background: url('/assets/img/content/background/list-background2.webp') left bottom/cover no-repeat;
 }
 
 .base-role-btn {
@@ -513,7 +513,7 @@ body .v--modal-overlay {
     top: -0.2vw;
     width: 4vw;
     height: 4vw;
-    background: url(/assets/img/content/Close/Close.png) no-repeat;
+    background: url(/assets/img/content/Close/Close.webp) no-repeat;
     background-size: cover;
     cursor: pointer;
     z-index: 99;
