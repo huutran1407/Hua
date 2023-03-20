@@ -12,7 +12,7 @@ html{
 
 @font-face {
     font-family: "WjbuFont";
-    src: url(/assets/font/Genshin-Impact-Font/ja-jp.ttf);
+    src: url(../font/Genshin-Impact-Font/ja-jp.ttf);
 }
 
 @keyframes slideUp {
@@ -49,6 +49,10 @@ html{
     display: none !important;
 }
 
+.wjbu-font{
+    font-family: 'WjbuFont';
+}
+
 /* 
 1. vị trí
 2.kích thước
@@ -72,6 +76,7 @@ html{
 
 #nav {
     display: inline-block;
+    font-size: 2vw;
 }
 
 #nav, .subnav{
@@ -115,7 +120,7 @@ html{
     top: 100%;
     left: 0;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,3);
+    box-shadow: 0 0 1vw rgba(0,0,0,3);
 }
 
 #nav .subnav a{
@@ -149,7 +154,7 @@ html{
     margin-top: 4vw;
     /* tỉ lệ theo chiều ngang của chính nó */
     padding-top: 50%;
-    background: url('/assets/img/slider/hua-background.webp') top center / cover no-repeat;
+    background: url('../img/slider/hua-background.png') top center / cover no-repeat;
 }
 
 #slider .text-content{
@@ -185,7 +190,7 @@ html{
     margin-right: auto;
     /* margin-bottom: 20px; */
     padding-top: 50%;
-    background: url('/assets/img/content/background/bridge.webp')top center /cover no-repeat;
+    background: url('../img/content/background/bridge.png')top center /cover no-repeat;
     overflow: hidden;
 }
 
@@ -203,6 +208,7 @@ html{
 }
 
 .valk-detail-card{
+    font-family: tahoma, Arial;
     position: absolute;
     right: 5%;
     top: 2%;
@@ -288,7 +294,7 @@ html{
     height: 4.5dvw;
     line-height: 3.2dvw;
     padding-left: 2dvw;
-    background: url('/assets/img/content/background/data_background.webp') 0 0/ 31dvw no-repeat;
+    background: url('../img/content/background/data_background.png') 0 0/ 31dvw no-repeat;
     margin: 0.8dvw -1.3vw;
 }
 
@@ -339,19 +345,6 @@ html{
     list-style: none;
 }
 
-.Armorlist {
-    list-style-type: none;
-    text-align: center;
-    padding: 2vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background: url('/assets/img/content/background/list-background2.webp') left bottom/100% 100% no-repeat;
-}
-
 .valkyries-detail-action {
     position: absolute;
     bottom: 0;
@@ -368,8 +361,22 @@ html{
     justify-content: flex-end;
     z-index: 5;
     width: 100%;
-    height: 10vw;
-    background: url('/assets/img/content/background/list-background2.webp') left bottom/cover no-repeat;
+    height: 15vw;
+    background: url('../img/content/background/list-background2.png') left bottom/cover no-repeat;
+}
+
+.Armorlist {
+    font-family: tahoma, Arial;
+    list-style-type: none;
+    text-align: center;
+    padding: 2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: url('../img/content/background/list-background2.png') left bottom/cover no-repeat;
 }
 
 .base-role-btn {
@@ -513,7 +520,7 @@ body .v--modal-overlay {
     top: -0.2vw;
     width: 4vw;
     height: 4vw;
-    background: url(/assets/img/content/Close/Close.webp) no-repeat;
+    background: url(../img/content/Close/Close.png) no-repeat;
     background-size: cover;
     cursor: pointer;
     z-index: 99;
