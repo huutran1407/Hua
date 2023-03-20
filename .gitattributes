@@ -4,6 +4,7 @@ assets/img/content/Rubia/Rubia.mp4 filter=lfs diff=lfs merge=lfs -text
 */assets/img/content/Rubia/Rubia.mp4 filter=lfs diff=lfs merge=lfs -text
 =======
 >>>>>>> e33ccef7882c0fe79e3bc3e5ebc6131caea1b173
+Rubia.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 *.css filter=lfs diff=lfs merge=lfs -text
 *.ttf filter=lfs diff=lfs merge=lfs -text
