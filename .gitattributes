@@ -1,4 +1,2 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
 assets/img/content/Rubia/Rubia.mp4 filter=lfs diff=lfs merge=lfs -text
-C:/Users/VHC/OneDrive[[:space:]]-[[:space:]]FPT[[:space:]]University/Desktop/html+css+js/Hua/assets/img/content/Rubia/Rubia.mp4 filter=lfs diff=lfs merge=lfs -text
